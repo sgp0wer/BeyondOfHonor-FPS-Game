@@ -3,6 +3,9 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Animator Settings")]
+    public Animator animator;
+
     [Header("Movement Settings")]
     public float walkSpeed = 5f;
     public float sprintSpeed = 9f;
@@ -16,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     private float slideTimer = 0f;
     private float slideCooldownTimer = 0f;
-    private bool isSliding = false;
+    public bool isSliding = false;
     private bool canSlide = true;
     private Vector3 slideDirection;
 
@@ -78,7 +81,9 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             // Подкат: движение по сохранённому направлению
-            controller.Move(slideDirection * slideSpeed * Time.deltaTime);
+            Vector3 slideWithGravity = slideDirection * slideSpeed;
+            slideWithGravity.y = velocity.y; // вертикальная гравитация
+            controller.Move(slideWithGravity * Time.deltaTime);
             slideTimer -= Time.deltaTime;
 
             if (slideTimer <= 0f)
@@ -96,6 +101,13 @@ public class PlayerMovement : MonoBehaviour
         // Гравитация
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+
+        // === Анимации движения ===
+        float moveMagnitude = new Vector2(x, z).magnitude;
+        animator.SetFloat("Speed", moveMagnitude);
+        animator.SetBool("IsSprinting", isSprinting);
+        animator.SetBool("IsSliding", isSliding);
+        animator.SetBool("IsJumping", !isGrounded);
     }
 
     void StartSlide()
@@ -107,7 +119,7 @@ public class PlayerMovement : MonoBehaviour
 
         slideDirection = transform.forward;
     }
-
+    
     void EndSlide()
     {
         isSliding = false;
