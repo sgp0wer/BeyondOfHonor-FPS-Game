@@ -186,4 +186,8 @@ public class PlayerMovement : MonoBehaviour
         int index = Random.Range(0, walkClips.Length);
         audioSource.PlayOneShot(walkClips[index]);
     }
+    public Vector3 GetVelocity()
+    {
+        return velocity;
+    }
 }
