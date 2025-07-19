@@ -33,6 +33,22 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    [Header("Audio")]
+    public AudioSource audioSource;
+
+    public AudioClip[] walkClips;
+    public AudioClip slideClip;
+    public AudioClip jumpClip;
+    public AudioClip landClip;
+
+    [Header("Movement Sound Settings")]
+    public bool isSneaking = false; // ← включаем беззвучный режим
+   
+    public float stepDelay = 0.5f;
+    private float stepTimer = 0f;
+
+    private bool wasGroundedLastFrame = true;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -46,13 +62,23 @@ public class PlayerMovement : MonoBehaviour
         if (isGrounded && velocity.y < 0)
             velocity.y = -2f;
 
-        // Ввод
-        float x = Input.GetAxis("Horizontal");
+        isSneaking = Input.GetKey(KeyCode.LeftAlt);
+
+        if (isSneaking == true)
+        {
+            walkSpeed = 3;
+        }
+        else
+        {
+            walkSpeed = 5;
+        }
+            // Ввод
+            float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = Vector3.zero;
 
-        // === ОБНОВЛЕНИЕ КУЛДАУНА ===
+        // Обновление кулдауна
         if (!canSlide)
         {
             slideCooldownTimer -= Time.deltaTime;
@@ -66,8 +92,23 @@ public class PlayerMovement : MonoBehaviour
             // Расчёт движения
             move = transform.right * x + transform.forward * z;
 
+            // Звук шагов
+            if (isGrounded && !isSliding && !isSneaking && (x != 0 || z != 0))
+            {
+                stepTimer -= Time.deltaTime;
+                if (stepTimer <= 0f)
+                {
+                    PlayRandomStepSound();
+                    stepTimer = stepDelay / (isSprinting ? 1.5f : 1f); // бегает чаще
+                }
+            }
+            else
+            {
+                stepTimer = 0f;
+            }
+
             // Спринт только если двигаемся ВПЕРЁД и не в бок
-            isSprinting = Input.GetKey(KeyCode.LeftShift) && z > 0 && x == 0 && isGrounded;
+            isSprinting = Input.GetKey(KeyCode.LeftShift) && z > 0 && x == 0 && isGrounded && !isSneaking;
 
             float currentSpeed = isSprinting ? sprintSpeed : walkSpeed;
             controller.Move(move * currentSpeed * Time.deltaTime);
@@ -95,6 +136,8 @@ public class PlayerMovement : MonoBehaviour
         // Прыжок
         if (Input.GetButtonDown("Jump") && isGrounded && !isSliding)
         {
+            if (audioSource != null && jumpClip != null)
+                audioSource.PlayOneShot(jumpClip);
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
@@ -108,21 +151,39 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsSprinting", isSprinting);
         animator.SetBool("IsSliding", isSliding);
         animator.SetBool("IsJumping", !isGrounded);
+
+        // Звук приземления
+        if (!wasGroundedLastFrame && isGrounded)
+        {
+            if (audioSource != null && landClip != null)
+                audioSource.PlayOneShot(landClip);
+        }
+        wasGroundedLastFrame = isGrounded;
     }
 
     void StartSlide()
     {
         isSliding = true;
+        if (audioSource != null && slideClip != null)
+            audioSource.PlayOneShot(slideClip);
         slideTimer = slideDuration;
         canSlide = false;
         slideCooldownTimer = slideCooldown;
 
         slideDirection = transform.forward;
+
     }
     
     void EndSlide()
     {
         isSliding = false;
         // Возврат управления произойдёт в Update
+    }
+    void PlayRandomStepSound()
+    {
+        if (walkClips.Length == 0 || audioSource == null) return;
+
+        int index = Random.Range(0, walkClips.Length);
+        audioSource.PlayOneShot(walkClips[index]);
     }
 }

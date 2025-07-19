@@ -33,7 +33,7 @@ public class Gun : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetMouseButton(0))
         {
             if (Time.time >= nextTimeToFire && currentAmmo != 0)
             {
@@ -41,7 +41,7 @@ public class Gun : MonoBehaviour
                 Shoot();
             }
         }
-        if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire  && currentAmmo != 0)
+        if (Input.GetMouseButton(0) && Time.time >= nextTimeToFire  && currentAmmo != 0)
         {
             nextTimeToFire = Time.time + fireRate;
             Shoot();
