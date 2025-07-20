@@ -276,9 +276,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c72e2b7699437b84db542cf3fab288e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localPositionOffset: {x: 0.415, y: -0.201, z: -0.011}
-  localRotationOffset: {x: 38.776, y: 86.941, z: -92.27}
-  localScale: {x: 1.9, y: 1.9, z: 1.9}
+  localPositionOffset: {x: 0.496, y: 0.205, z: -0.101}
+  localRotationOffset: {x: -25.114, y: 96.581, z: -88.323}
+  localScale: {x: 2.61212, y: 2.61212, z: 2.61212}
 --- !u!1 &1927369336514790
 GameObject:
   m_ObjectHideFlags: 0

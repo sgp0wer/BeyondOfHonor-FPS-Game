@@ -1,7 +1,8 @@
 using UnityEngine;
+using FishNet.Object;
 
 [RequireComponent(typeof(CharacterController))]
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : NetworkBehaviour
 {
     [Header("Animator Settings")]
     public Animator animator;
@@ -56,6 +57,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (!IsOwner) return;
         // Обновляем статус касания земли
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
