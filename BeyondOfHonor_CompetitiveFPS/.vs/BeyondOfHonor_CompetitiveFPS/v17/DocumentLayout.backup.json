@@ -3,27 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{655A8A46-9652-8277-606A-06CD6F0E103A}|FishNet.Runtime.csproj|c:\\users\\sgp0wer\\downloads\\fishnet-main\\fishnet-main\\assets\\fishnet\\runtime\\managing\\object\\prefabobjects\\defaultprefabobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Network\\NetworkController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Network\\NetworkController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Weapon\\Gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Weapon\\Gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\WeaponOffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\WeaponOffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655A8A46-9652-8277-606A-06CD6F0E103A}|FishNet.Runtime.csproj|c:\\users\\sgp0wer\\downloads\\fishnet-main\\fishnet-main\\assets\\fishnet\\runtime\\editor\\prefabcollectiongenerator\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Camera\\PlayerLook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Camera\\PlayerLook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Movement\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Movement\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Weapon\\Gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Weapon\\Gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Weapon\\IK\\WeaponEquipManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Weapon\\IK\\WeaponEquipManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Movement\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Movement\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\WeaponOffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\WeaponOffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,7 +41,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Gun.cs",
               "DocumentMoniker": "C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Weapon\\Gun.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\Gun.cs",
@@ -46,64 +50,72 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T12:26:29.231Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DefaultPrefabObjects.cs",
-              "DocumentMoniker": "C:\\Users\\sgp0wer\\Downloads\\FishNet-main\\FishNet-main\\Assets\\FishNet\\Runtime\\Managing\\Object\\PrefabObjects\\DefaultPrefabObjects.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\FishNet-main\\FishNet-main\\Assets\\FishNet\\Runtime\\Managing\\Object\\PrefabObjects\\DefaultPrefabObjects.cs",
-              "ToolTip": "C:\\Users\\sgp0wer\\Downloads\\FishNet-main\\FishNet-main\\Assets\\FishNet\\Runtime\\Managing\\Object\\PrefabObjects\\DefaultPrefabObjects.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\FishNet-main\\FishNet-main\\Assets\\FishNet\\Runtime\\Managing\\Object\\PrefabObjects\\DefaultPrefabObjects.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAewE0AAABZAAAAAAAAAA==",
+              "Title": "NetworkController.cs",
+              "DocumentMoniker": "C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Network\\NetworkController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Network\\NetworkController.cs",
+              "ToolTip": "C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Network\\NetworkController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Network\\NetworkController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T13:18:35.011Z",
+              "WhenOpened": "2025-07-20T15:31:47.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Generator.cs",
+              "DocumentMoniker": "C:\\Users\\sgp0wer\\Downloads\\FishNet-main\\FishNet-main\\Assets\\FishNet\\Runtime\\Editor\\PrefabCollectionGenerator\\Generator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\FishNet-main\\FishNet-main\\Assets\\FishNet\\Runtime\\Editor\\PrefabCollectionGenerator\\Generator.cs",
+              "ToolTip": "C:\\Users\\sgp0wer\\Downloads\\FishNet-main\\FishNet-main\\Assets\\FishNet\\Runtime\\Editor\\PrefabCollectionGenerator\\Generator.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\FishNet-main\\FishNet-main\\Assets\\FishNet\\Runtime\\Editor\\PrefabCollectionGenerator\\Generator.cs",
+              "ViewState": "AgIAAHQBAAAAAAAAAABRwHcBAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T13:22:38.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WeaponOffset.cs",
               "DocumentMoniker": "C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\WeaponOffset.cs",
               "RelativeDocumentMoniker": "Assets\\WeaponOffset.cs",
               "ToolTip": "C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\WeaponOffset.cs",
               "RelativeToolTip": "Assets\\WeaponOffset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T13:14:07.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T13:14:07.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PlayerLook.cs",
               "DocumentMoniker": "C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Camera\\PlayerLook.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\PlayerLook.cs",
               "ToolTip": "C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Camera\\PlayerLook.cs",
               "RelativeToolTip": "Assets\\Scripts\\Camera\\PlayerLook.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T13:08:48.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T13:08:48.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "WeaponEquipManager.cs",
               "DocumentMoniker": "C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Weapon\\IK\\WeaponEquipManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\IK\\WeaponEquipManager.cs",
               "ToolTip": "C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Weapon\\IK\\WeaponEquipManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Weapon\\IK\\WeaponEquipManager.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T12:24:24.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T12:24:24.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\sgp0wer\\Documents\\GitHub\\BeyondOfHonor-FPS-Game\\BeyondOfHonor_CompetitiveFPS\\Assets\\Scripts\\Movement\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\PlayerMovement.cs",
@@ -111,8 +123,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Movement\\PlayerMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T17:02:01.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T17:02:01.423Z"
             }
           ]
         }
